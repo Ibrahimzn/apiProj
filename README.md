@@ -17,7 +17,7 @@ De-Bookmarking: Users can remove users from their list of bookmarks.
 Saving Results: Users can save search results to a file.
 
 ## Getting the key
-* on stack https://stackapps.com/ create an app and edit those two app settings
+* on stack https://stackapps.com/apps/oauth/register create an app after creating the app edit those two app settings
 OAuth Domain = stackexchange.com and enable "Enable Client Side OAuth Flow"
 ![img_2.png](img_2.png)
 * using this request URL https://stackoverflow.com/oauth/dialog?client_id="yourClientId"&scope=no_expiry&redirect_uri=https://stackexchange.com
