@@ -21,7 +21,7 @@ Saving Results: Users can save search results to a file.
 OAuth Domain = stackexchange.com and enable "Enable Client Side OAuth Flow"
 ![img_2.png](img_2.png)
 * using this request URL https://stackoverflow.com/oauth/dialog?client_id="yourClientId"&scope=no_expiry&redirect_uri=https://stackexchange.com
-u will get a key in the URL to use in the .env as auth=*the key here
+change the client id to your client id from the app u will get a key in the URL to use in the .env as auth=*the key here
 ## Running the project
 
 The project could be easily run when using intelliJ IDEA by cloning
